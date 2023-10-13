@@ -24,7 +24,7 @@
     double_tap_action:
       action: more-info
     entity_picture: >
-      [[[ return (entity.state === 'on' ) ? '/local/icon/lightswitch.on.fill.png' : '/local/icon/lightswitch.off.fill.png'; ]]]
+      [[[ return (entity.state === 'on' ) ? '/local/homeplay_assets/icon/lightswitch.on.fill.png' : '/local/homeplay_assets/icon/lightswitch.off.fill.png'; ]]]
     styles:
       card:
         - width: 5vw

@@ -1,8 +1,8 @@
 - type: image
   entity: input_select.homeos_selected_theme
   state_image:
-    homeos_light: /local/map_media/basement-day.jpg
-    homeos_dark: /local/map_media/basement-night.jpg
+    homeos_light: /local/homeplay_assets/map_media/basement-day.jpg
+    homeos_dark: /local/homeplay_assets/map_media/basement-night.jpg
   style:
     top: 0px
     left: 0px

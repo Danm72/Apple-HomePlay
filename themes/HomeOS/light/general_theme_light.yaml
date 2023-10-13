@@ -99,7 +99,7 @@ custom-weather-card-backdrop-filter: blur(30px) #saturate(109%) brightness(96%)
 
 #_______________________________________________________________________________
 # Background
-background: left top / contain no-repeat fixed url('/local/background/day-variant-2.jpg')
+background: left top / contain no-repeat fixed url('/local/homeplay_assets/background/day-variant-2.jpg')
 
 
 #_______________________________________________________________________________

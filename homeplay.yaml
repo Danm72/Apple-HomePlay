@@ -45,7 +45,7 @@ views:
           grid-area: topbar
         cards:
           - type: picture-elements
-            image: /local/1x1_trans.png
+            image: /local/homeplay_assets/1x1_trans.png
             style: |
               ha-card {
                 border-radius: 20px 20px 0px 0px !important;
@@ -157,7 +157,7 @@ views:
           grid-area: left
         cards:
           - type: picture-elements
-            image: /local/weather/empty.png
+            image: /local/homeplay_assets/weather/empty.png
             style: |
               ha-card {
                 border-radius: 1.5vw !important;
@@ -359,8 +359,8 @@ views:
                 height: 2.2vw;
                 display: inline-block;
                 content: '';
-                mask: url('/local/icon/square.3.layers.3d.bottom.filled.svg') no-repeat 50% 50%;
-                -webkit-mask: url('/local/icon/square.3.layers.3d.bottom.filled.svg') no-repeat 50% 50%;
+                mask: url('/local/homeplay_assets/icon/square.3.layers.3d.bottom.filled.svg') no-repeat 50% 50%;
+                -webkit-mask: url('/local/homeplay_assets/icon/square.3.layers.3d.bottom.filled.svg') no-repeat 50% 50%;
                 mask-size: cover;
                 -webkit-mask-size: cover;
                 background-color: var(--custom-map-card-control-text);
@@ -373,8 +373,8 @@ views:
                 height: 2.2vw;
                 display: inline-block;
                 content: '';
-                mask: url('/local/icon/square.3.layers.3d.middle.filled.svg') no-repeat 50% 50%;
-                -webkit-mask: url('/local/icon/square.3.layers.3d.middle.filled.svg') no-repeat 50% 50%;
+                mask: url('/local/homeplay_assets/icon/square.3.layers.3d.middle.filled.svg') no-repeat 50% 50%;
+                -webkit-mask: url('/local/homeplay_assets/icon/square.3.layers.3d.middle.filled.svg') no-repeat 50% 50%;
                 mask-size: cover;
                 -webkit-mask-size: cover;
                 background-color: var(--custom-map-card-control-text);
@@ -387,8 +387,8 @@ views:
                 height: 2.2vw;
                 display: inline-block;
                 content: '';
-                mask: url('/local/icon/square.3.layers.3d.top.filled.svg') no-repeat 50% 50%;
-                -webkit-mask: url('/local/icon/square.3.layers.3d.top.filled.svg') no-repeat 50% 50%;
+                mask: url('/local/homeplay_assets/icon/square.3.layers.3d.top.filled.svg') no-repeat 50% 50%;
+                -webkit-mask: url('/local/homeplay_assets/icon/square.3.layers.3d.top.filled.svg') no-repeat 50% 50%;
                 mask-size: cover;
                 -webkit-mask-size: cover;
                 background-color: var(--custom-map-card-control-text);
@@ -417,7 +417,7 @@ views:
             # BASEMENT FLOOR              #
             ###############################
             - type: picture-elements
-              image: /local/house/floor-empty.png
+              image: /local/homeplay_assets/house/floor-empty.png
               style: |
                 ha-card {
                   border-radius: 20px !important ;
@@ -429,8 +429,8 @@ views:
                 - type: image
                   entity: input_select.hass_theme_selected
                   state_image:
-                    light: /local/house/basement-day.png
-                    dark: /local/house/basement-night.png
+                    light: /local/homeplay_assets/house/basement-day.png
+                    dark: /local/homeplay_assets/house/basement-night.png
                   style:
                     Left: 50%
                     top: 50%
@@ -482,7 +482,7 @@ views:
             # GROUND FLOOR                #
             ###############################
             - type: picture-elements
-              image: /local/house/rdc-night.png
+              image: /local/homeplay_assets/house/rdc-night.png
               style: |
                 ha-card {
                   border-radius: 20px !important ;
@@ -492,8 +492,8 @@ views:
                 - type: image
                   entity: input_select.hass_theme_selected
                   state_image:
-                    light: /local/house/rdc-day.png
-                    dark: /local/house/rdc-night.png
+                    light: /local/homeplay_assets/house/rdc-day.png
+                    dark: /local/homeplay_assets/house/rdc-night.png
                   style:
                     Left: 50%
                     top: 50%
@@ -610,7 +610,7 @@ views:
                     
                     - entity: media_player.appletv_salon
                       type: custom:button-card
-                      entity_picture: /local/icon/appletv.fill.png
+                      entity_picture: /local/homeplay_assets/icon/appletv.fill.png
                       show_entity_picture: true
                       style:
                         left: 18%
@@ -657,7 +657,7 @@ views:
             # 1st floor                   #
             ###############################
             - type: picture-elements
-              image: /local/house/1st-floor-night.png
+              image: /local/homeplay_assets/house/1st-floor-night.png
               style: |
                 ha-card {
                   border-radius: 20px !important ;
@@ -667,8 +667,8 @@ views:
                 - type: image
                   entity: input_select.hass_theme_selected
                   state_image:
-                    light: /local/house/1st-floor-day.png
-                    dark: /local/house/1st-floor-night.png
+                    light: /local/homeplay_assets/house/1st-floor-day.png
+                    dark: /local/homeplay_assets/house/1st-floor-night.png
                   style:
                     Left: 50%
                     top: 50%
@@ -826,7 +826,7 @@ views:
               entity: person.sebastien_logeais
               template: person
               variables:
-                picture: '/local/person/seb.jpg'  #Picture in WWW folder
+                picture: '/local/homeplay_assets/person/seb.jpg'  #Picture in WWW folder
                 travel_time: "[[[ return states['sensor.seb_work_travel_time'].state ]]]"
     
           - type: conditional
@@ -855,7 +855,7 @@ views:
               entity: person.sebastien_logeais
               template: person
               variables:
-                picture: '/local/person/seb.jpg'  #Picture in WWW folder
+                picture: '/local/homeplay_assets/person/seb.jpg'  #Picture in WWW folder
                 travel_time: "[[[ return states['sensor.seb_work_travel_time'].state ]]]"
 
           - type: conditional
@@ -868,7 +868,7 @@ views:
               entity: person.lynn
               template: person_bus
               variables:
-                picture: '/local/person/lynn'  #Picture in WWW folder
+                picture: '/local/homeplay_assets/person/lynn'  #Picture in WWW folder
                 bus_line: "[[[ return states['sensor.491_express_est'].state ]]]"
             
           - type: conditional
@@ -897,7 +897,7 @@ views:
               entity: person.lynn
               template: person_bus
               variables:
-                picture: '/local/person/lynn'  #Picture in WWW folder
+                picture: '/local/homeplay_assets/person/lynn'  #Picture in WWW folder
                 bus_line: "[[[ return states['sensor.491_express_est'].state ]]]"
                 #bus_line_next: "[[[ return state_attr('sensor.191_bus_est', 'Next bus') ]]]"
       
@@ -973,7 +973,7 @@ views:
           grid-area: taskbar
         cards:
           - type: picture-elements
-            image: /local/1x1_trans.png
+            image: /local/homeplay_assets/1x1_trans.png
             style: |
               ha-card {
                 border-radius: 0px 0px 20px 20px !important;
@@ -1093,21 +1093,21 @@ views:
                 cards:
                   - type: custom:button-card
                     entity: group.hass_update_notification
-                    entity_picture: /local/icon/home_assistant.png
+                    entity_picture: /local/homeplay_assets/icon/home_assistant.png
                     template:
                       - apps
                     tap_action: !include popup/homeassistant.yaml
 
                   - type: custom:button-card
                     entity: group.router_update_notification
-                    entity_picture: /local/icon/wifi.png
+                    entity_picture: /local/homeplay_assets/icon/wifi.png
                     template:
                       - apps
                     tap_action: !include popup/wifi.yaml
 
                   - type: custom:button-card
                     entity: alarm_control_panel.alarme
-                    entity_picture: /local/icon/alarm2.png
+                    entity_picture: /local/homeplay_assets/icon/alarm2.png
                     template:
                       - apps
                     #tap_action:
@@ -1115,7 +1115,7 @@ views:
 
                   - type: custom:button-card
                     entity: binary_sensor.server_security_status
-                    entity_picture: /local/icon/server.png
+                    entity_picture: /local/homeplay_assets/icon/server.png
                     template:
                       - apps
                     tap_action: !include popup/server.yaml

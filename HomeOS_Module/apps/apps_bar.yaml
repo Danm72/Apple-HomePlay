@@ -10,7 +10,7 @@
 # | Date: 1 October 2023                                                       |
 # +----------------------------------------------------------------------------+
 type: picture-elements
-image: /local/app_media/empty.png
+image: /local/homeplay_assets/app_media/empty.png
 style: |
   ha-card {
     border-radius: 0;

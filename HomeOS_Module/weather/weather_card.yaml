@@ -10,7 +10,7 @@
 # +----------------------------------------------------------------------------+
 
 type: picture-elements
-image: /local/weather_media/empty.png
+image: /local/homeplay_assets/weather_media/empty.png
 style: |
   ha-card {
     border-radius: var(--homeos-weather-border-radius) !important;
@@ -32,86 +32,86 @@ elements:
       ##########################################################################
       # 0 - 100 Day weather picture
       ##########################################################################
-      0: /local/weather_media/sunny_day.png #Ensoleillé / Sunny
-      1: /local/weather_media/mainly_sunny_day.png #Généralement ensoleillé / Mainly Sunny
-      2: /local/weather_media/partly_cloudy_day.png #Partiellement nuageux / Partly Cloudy
-      3: /local/weather_media/mostly_cloudy_day.png #Généralement nuageux / Mostly Cloudy
-      6: /local/weather_media/drizzle_day.png #Faible averse de pluie / Light Rain Shower
-      7: /local/weather_media/drizzle_day.png #Faible averse de pluie et de neige / Light Rain Shower and Flurries
-      8: /local/weather_media/snow_day.png #Faible averse de neige / Light Flurries
-      10: /local/weather_media/cloudy_day.png #Nuageux / Cloudy
-      11: /local/weather_media/drizzle_day.png #Précipitations / Precipitation
-      12: /local/weather_media/rain_day.png #Pluie / Rain
-      13: /local/weather_media/rain_day.png #Pluie forte / Heavy Rain
-      14: /local/weather_media/rain_day.png #Pluie verglaçante / Freezing Rain
-      15: /local/weather_media/rain_day.png #Pluie et neige / Rain and Snow
-      16: /local/weather_media/light_flurries_day.png #Neige faible / Light Snow
-      17: /local/weather_media/snow_day.png #Neige / Snow
-      18: /local/weather_media/heavy_snow_day.png #Neige forte / Heavy Snow
-      19: /local/weather_media/thunderstorm_day.png #Orage / Thunderstorm
-      23: /local/weather_media/haze_day.png #Brume sèche / Haze
-      24: /local/weather_media/haze_day.png #Brouillard / Fog
-      25: /local/weather_media/windy_day.png #Poudrerie basse / Drifting Snow
-      26: /local/weather_media/rain_day.pn #Cristaux de glace / Ice Crystals
-      27: /local/weather_media/rain_day.png #Grêle / Hail
-      28: /local/weather_media/drizzle_day.png #Bruine / Drizzle
-      30: /local/weather_media/sunny_day.png #Dégagé / Clear
-      31: /local/weather_media/mainly_sunny_day.png #Généralement dégagé / Mainly Clear
-      32: /local/weather_media/partly_cloudy_day.png #Partiellement nuageux / Partly Cloudy
-      33: /local/weather_media/mostly_cloudy_day.png #Généralement nuageux / Mostly Cloudy
-      40: /local/weather_media/light_flurries_day.png #Poudrerie élevée / Blowing Snow
-      41: /local/weather_media/cloudy_day.png #Nuage en entonnoir / Funnel Cloud
-      42: /local/weather_media/thunderstorm_day.png #Tornade / Tornado
-      43: /local/weather_media/windy_day.png #Windy / Windy
-      44: /local/weather_media/haze_day.png #Fumée / Smoke
-      45: /local/weather_media/windy_day.png #Tempête de poussière / Dust Storm
-      46: /local/weather_media/thunderstorm_day.png #Orage avec grêle / Thunderstorm with Hail
-      47: /local/weather_media/thunderstorm_day.png #Orage avec tempête de poussière / Thunderstorm with Dust Storm
-      48: /local/weather_media/thunderstorm_day.png #Trombe marine / Waterspout
+      0: /local/homeplay_assets/weather_media/sunny_day.png #Ensoleillé / Sunny
+      1: /local/homeplay_assets/weather_media/mainly_sunny_day.png #Généralement ensoleillé / Mainly Sunny
+      2: /local/homeplay_assets/weather_media/partly_cloudy_day.png #Partiellement nuageux / Partly Cloudy
+      3: /local/homeplay_assets/weather_media/mostly_cloudy_day.png #Généralement nuageux / Mostly Cloudy
+      6: /local/homeplay_assets/weather_media/drizzle_day.png #Faible averse de pluie / Light Rain Shower
+      7: /local/homeplay_assets/weather_media/drizzle_day.png #Faible averse de pluie et de neige / Light Rain Shower and Flurries
+      8: /local/homeplay_assets/weather_media/snow_day.png #Faible averse de neige / Light Flurries
+      10: /local/homeplay_assets/weather_media/cloudy_day.png #Nuageux / Cloudy
+      11: /local/homeplay_assets/weather_media/drizzle_day.png #Précipitations / Precipitation
+      12: /local/homeplay_assets/weather_media/rain_day.png #Pluie / Rain
+      13: /local/homeplay_assets/weather_media/rain_day.png #Pluie forte / Heavy Rain
+      14: /local/homeplay_assets/weather_media/rain_day.png #Pluie verglaçante / Freezing Rain
+      15: /local/homeplay_assets/weather_media/rain_day.png #Pluie et neige / Rain and Snow
+      16: /local/homeplay_assets/weather_media/light_flurries_day.png #Neige faible / Light Snow
+      17: /local/homeplay_assets/weather_media/snow_day.png #Neige / Snow
+      18: /local/homeplay_assets/weather_media/heavy_snow_day.png #Neige forte / Heavy Snow
+      19: /local/homeplay_assets/weather_media/thunderstorm_day.png #Orage / Thunderstorm
+      23: /local/homeplay_assets/weather_media/haze_day.png #Brume sèche / Haze
+      24: /local/homeplay_assets/weather_media/haze_day.png #Brouillard / Fog
+      25: /local/homeplay_assets/weather_media/windy_day.png #Poudrerie basse / Drifting Snow
+      26: /local/homeplay_assets/weather_media/rain_day.pn #Cristaux de glace / Ice Crystals
+      27: /local/homeplay_assets/weather_media/rain_day.png #Grêle / Hail
+      28: /local/homeplay_assets/weather_media/drizzle_day.png #Bruine / Drizzle
+      30: /local/homeplay_assets/weather_media/sunny_day.png #Dégagé / Clear
+      31: /local/homeplay_assets/weather_media/mainly_sunny_day.png #Généralement dégagé / Mainly Clear
+      32: /local/homeplay_assets/weather_media/partly_cloudy_day.png #Partiellement nuageux / Partly Cloudy
+      33: /local/homeplay_assets/weather_media/mostly_cloudy_day.png #Généralement nuageux / Mostly Cloudy
+      40: /local/homeplay_assets/weather_media/light_flurries_day.png #Poudrerie élevée / Blowing Snow
+      41: /local/homeplay_assets/weather_media/cloudy_day.png #Nuage en entonnoir / Funnel Cloud
+      42: /local/homeplay_assets/weather_media/thunderstorm_day.png #Tornade / Tornado
+      43: /local/homeplay_assets/weather_media/windy_day.png #Windy / Windy
+      44: /local/homeplay_assets/weather_media/haze_day.png #Fumée / Smoke
+      45: /local/homeplay_assets/weather_media/windy_day.png #Tempête de poussière / Dust Storm
+      46: /local/homeplay_assets/weather_media/thunderstorm_day.png #Orage avec grêle / Thunderstorm with Hail
+      47: /local/homeplay_assets/weather_media/thunderstorm_day.png #Orage avec tempête de poussière / Thunderstorm with Dust Storm
+      48: /local/homeplay_assets/weather_media/thunderstorm_day.png #Trombe marine / Waterspout
 
       ##########################################################################
       # 100 - 200 Night weather picture
       ##########################################################################
-      100: /local/weather_media/clearsky_night.png #Dégagé / Clear
-      101: /local/weather_media/mainlyclear_night.png #Généralement dégagé / Mainly Clear
-      102: /local/weather_media/partly_cloudy_night.png #Partiellement nuageux / Partly Cloudy
-      103: /local/weather_media/mostly_cloudy_night.png #Généralement nuageux / Mostly Cloudy
-      106: /local/weather_media/drizzle_night.png #Faible averse de pluie / Light Rain Shower
-      107: /local/weather_media/drizzle_night.png #Faible averse de pluie et de neige / Light Rain Shower and Flurries
-      108: /local/weather_media/light_flurries_night.png #Faible averse de neige / Light Flurries
-      110: /local/weather_media/cloudy_night.png #Nuageux / Cloudy
-      111: /local/weather_media/drizzle_night.png #Précipitations / Precipitation
-      112: /local/weather_media/rain_night.png #Pluie / Rain
-      113: /local/weather_media/heavy_rain_night.png #Pluie forte / Heavy Rain
-      114: /local/weather_media/rain_night.png #Pluie verglaçante / Freezing Rain
-      115: /local/weather_media/rain_night.png #Pluie et neige / Rain and Snow
-      116: /local/weather_media/light_flurries_night.png #Neige faible / Light Snow
-      117: /local/weather_media/snow_night.png #Neige / Snow
-      118: /local/weather_media/heavy_snow_night.png #Neige forte / Heavy Snow
-      119: /local/weather_media/thunderstorm_night.png #Orage / Thunderstorm
-      123: /local/weather_media/haze_night.png #Brume sèche / Haze
-      124: /local/weather_media/haze_night.png #Brouillard / Fog
-      125: /local/weather_media/windy_night.png #Poudrerie basse / Drifting Snow
-      126: /local/weather_media/rain_night.png #Cristaux de glace / Ice Crystals
-      127: /local/weather_media/rain_night.png #Grêle / Hail
-      128: /local/weather_media/drizzle_night.png #Bruine / Drizzle
-      130: /local/weather_media/clearsky_night.png #Dégagé / Clear
-      131: /local/weather_media/mainlyclear_night.png #Généralement dégagé / Mainly Clear
-      132: /local/weather_media/partly_cloudy_night.png #Partiellement nuageux / Partly Cloudy
-      133: /local/weather_media/mostly_cloudy_night.png #Généralement nuageux / Mostly Cloudy
-      136: /local/weather_media/drizzle_night.png #Faible averse de pluie / Light Rain Shower
-      137: /local/weather_media/drizzle_night.png #Faible averse de pluie et de neige / Light Rain Shower and Flurries
-      138: /local/weather_media/light_flurries_night.png #Faible averse de neige / Light Flurries
-      139: /local/weather_media/thunderstorm_night.png #Orage fort / Heavy Thunderstorm
-      140: /local/weather_media/light_flurries_night.png #Poudrerie élevée / Blowing Snow
-      141: /local/weather_media/cloudy_night.png #Nuage en entonnoir / Funnel Cloud
-      142: /local/weather_media/thunderstorm_night.png #Tornade / Tornado
-      143: /local/weather_media/windy_night.png #Windy / Windy
-      144: /local/weather_media/haze_night.png #Fumée / Smoke
-      145: /local/weather_media/windy_night.png #Tempête de poussière / Dust Storm
-      146: /local/weather_media/thunderstorm_night.png #Orage avec grêle / Thunderstorm with Hail
-      147: /local/weather_media/thunderstorm_night.png #Orage avec tempête de poussière / Thunderstorm with Dust Storm
-      148: /local/weather_media/thunderstorm_night.png #Trombe marine / Waterspout
+      100: /local/homeplay_assets/weather_media/clearsky_night.png #Dégagé / Clear
+      101: /local/homeplay_assets/weather_media/mainlyclear_night.png #Généralement dégagé / Mainly Clear
+      102: /local/homeplay_assets/weather_media/partly_cloudy_night.png #Partiellement nuageux / Partly Cloudy
+      103: /local/homeplay_assets/weather_media/mostly_cloudy_night.png #Généralement nuageux / Mostly Cloudy
+      106: /local/homeplay_assets/weather_media/drizzle_night.png #Faible averse de pluie / Light Rain Shower
+      107: /local/homeplay_assets/weather_media/drizzle_night.png #Faible averse de pluie et de neige / Light Rain Shower and Flurries
+      108: /local/homeplay_assets/weather_media/light_flurries_night.png #Faible averse de neige / Light Flurries
+      110: /local/homeplay_assets/weather_media/cloudy_night.png #Nuageux / Cloudy
+      111: /local/homeplay_assets/weather_media/drizzle_night.png #Précipitations / Precipitation
+      112: /local/homeplay_assets/weather_media/rain_night.png #Pluie / Rain
+      113: /local/homeplay_assets/weather_media/heavy_rain_night.png #Pluie forte / Heavy Rain
+      114: /local/homeplay_assets/weather_media/rain_night.png #Pluie verglaçante / Freezing Rain
+      115: /local/homeplay_assets/weather_media/rain_night.png #Pluie et neige / Rain and Snow
+      116: /local/homeplay_assets/weather_media/light_flurries_night.png #Neige faible / Light Snow
+      117: /local/homeplay_assets/weather_media/snow_night.png #Neige / Snow
+      118: /local/homeplay_assets/weather_media/heavy_snow_night.png #Neige forte / Heavy Snow
+      119: /local/homeplay_assets/weather_media/thunderstorm_night.png #Orage / Thunderstorm
+      123: /local/homeplay_assets/weather_media/haze_night.png #Brume sèche / Haze
+      124: /local/homeplay_assets/weather_media/haze_night.png #Brouillard / Fog
+      125: /local/homeplay_assets/weather_media/windy_night.png #Poudrerie basse / Drifting Snow
+      126: /local/homeplay_assets/weather_media/rain_night.png #Cristaux de glace / Ice Crystals
+      127: /local/homeplay_assets/weather_media/rain_night.png #Grêle / Hail
+      128: /local/homeplay_assets/weather_media/drizzle_night.png #Bruine / Drizzle
+      130: /local/homeplay_assets/weather_media/clearsky_night.png #Dégagé / Clear
+      131: /local/homeplay_assets/weather_media/mainlyclear_night.png #Généralement dégagé / Mainly Clear
+      132: /local/homeplay_assets/weather_media/partly_cloudy_night.png #Partiellement nuageux / Partly Cloudy
+      133: /local/homeplay_assets/weather_media/mostly_cloudy_night.png #Généralement nuageux / Mostly Cloudy
+      136: /local/homeplay_assets/weather_media/drizzle_night.png #Faible averse de pluie / Light Rain Shower
+      137: /local/homeplay_assets/weather_media/drizzle_night.png #Faible averse de pluie et de neige / Light Rain Shower and Flurries
+      138: /local/homeplay_assets/weather_media/light_flurries_night.png #Faible averse de neige / Light Flurries
+      139: /local/homeplay_assets/weather_media/thunderstorm_night.png #Orage fort / Heavy Thunderstorm
+      140: /local/homeplay_assets/weather_media/light_flurries_night.png #Poudrerie élevée / Blowing Snow
+      141: /local/homeplay_assets/weather_media/cloudy_night.png #Nuage en entonnoir / Funnel Cloud
+      142: /local/homeplay_assets/weather_media/thunderstorm_night.png #Tornade / Tornado
+      143: /local/homeplay_assets/weather_media/windy_night.png #Windy / Windy
+      144: /local/homeplay_assets/weather_media/haze_night.png #Fumée / Smoke
+      145: /local/homeplay_assets/weather_media/windy_night.png #Tempête de poussière / Dust Storm
+      146: /local/homeplay_assets/weather_media/thunderstorm_night.png #Orage avec grêle / Thunderstorm with Hail
+      147: /local/homeplay_assets/weather_media/thunderstorm_night.png #Orage avec tempête de poussière / Thunderstorm with Dust Storm
+      148: /local/homeplay_assets/weather_media/thunderstorm_night.png #Trombe marine / Waterspout
 
   - type: state-label
     entity: sensor.weather_feel_like_temp

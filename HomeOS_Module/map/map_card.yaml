@@ -56,8 +56,8 @@ style:
         height: 2vw;
         display: inline-block;
         content: '';
-        mask: url('/local/map_media/square.3.layers.3d.bottom.filled.svg') no-repeat 50% 50%;
-        -webkit-mask: url('/local/map_media/square.3.layers.3d.bottom.filled.svg') no-repeat 50% 50%;
+        mask: url('/local/homeplay_assets/map_media/square.3.layers.3d.bottom.filled.svg') no-repeat 50% 50%;
+        -webkit-mask: url('/local/homeplay_assets/map_media/square.3.layers.3d.bottom.filled.svg') no-repeat 50% 50%;
         mask-size: cover;
         -webkit-mask-size: cover;
         background-color: var(--homeos-map-pagination-text-color);
@@ -70,8 +70,8 @@ style:
         height: 2vw;
         display: inline-block;
         content: '';
-        mask: url('/local/map_media/square.3.layers.3d.middle.filled.svg') no-repeat 50% 50%;
-        -webkit-mask: url('/local/map_media/square.3.layers.3d.middle.filled.svg') no-repeat 50% 50%;
+        mask: url('/local/homeplay_assets/map_media/square.3.layers.3d.middle.filled.svg') no-repeat 50% 50%;
+        -webkit-mask: url('/local/homeplay_assets/map_media/square.3.layers.3d.middle.filled.svg') no-repeat 50% 50%;
         mask-size: cover;
         -webkit-mask-size: cover;
         background-color: var(--homeos-map-pagination-text-color);
@@ -84,8 +84,8 @@ style:
         height: 2vw;
         display: inline-block;
         content: '';
-        mask: url('/local/map_media/square.3.layers.3d.top.filled.svg') no-repeat 50% 50%;
-        -webkit-mask: url('/local/map_media/square.3.layers.3d.top.filled.svg') no-repeat 50% 50%;
+        mask: url('/local/homeplay_assets/map_media/square.3.layers.3d.top.filled.svg') no-repeat 50% 50%;
+        -webkit-mask: url('/local/homeplay_assets/map_media/square.3.layers.3d.top.filled.svg') no-repeat 50% 50%;
         mask-size: cover;
         -webkit-mask-size: cover;
         background-color: var(--homeos-map-pagination-text-color);
@@ -116,7 +116,7 @@ card:
 # | BASEMENT FLOOR                                                             |
 # +----------------------------------------------------------------------------+
     - type: picture-elements
-      image: /local/map_media/empty.png
+      image: /local/homeplay_assets/map_media/empty.png
       style: |
         ha-card {
           border-radius: var(--homeos-card-border-radius) !important ;
@@ -128,7 +128,7 @@ card:
 # | GROUND FLOOR                                                               |
 # +----------------------------------------------------------------------------+
     - type: picture-elements
-      image: /local/map_media/empty.png
+      image: /local/homeplay_assets/map_media/empty.png
       style: |
         ha-card {
           border-radius: var(--homeos-card-border-radius) !important ;
@@ -140,7 +140,7 @@ card:
 # | 1ST FLOOR                                                                  |
 # +----------------------------------------------------------------------------+
     - type: picture-elements
-      image: /local/map_media/empty.png
+      image: /local/homeplay_assets/map_media/empty.png
       style: |
         ha-card {
           border-radius: var(--homeos-card-border-radius) !important ;

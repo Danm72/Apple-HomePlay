@@ -10,7 +10,7 @@
 # | Date: 1 October 2023                                                       |
 # +----------------------------------------------------------------------------+
 type: picture-elements
-image: '/local/topbar_media/empty.png'
+image: '/local/homeplay_assets/topbar_media/empty.png'
 elements:
   - type: state-label
     entity: sensor.time

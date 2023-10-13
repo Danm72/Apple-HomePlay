@@ -98,7 +98,7 @@ custom-weather-card-background: rgba(255,255,255,0)
 
 #_______________________________________________________________________________
 # Background
-background: left top / contain no-repeat fixed url('/local/background/night-variant.jpg')
+background: left top / contain no-repeat fixed url('/local/homeplay_assets/background/night-variant.jpg')
 
 #_______________________________________________________________________________
 # Swiper theme

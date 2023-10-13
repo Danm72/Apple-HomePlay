@@ -18,7 +18,7 @@ browser_mod:
             width: 100%;
           }
           .mdc-dialog .mdc-dialog__surface {
-            background: left top / cover no-repeat url('/local/weather_full_screen/mostly_cloudy_night.jpg') !important;
+            background: left top / cover no-repeat url('/local/homeplay_assets/weather_full_screen/mostly_cloudy_night.jpg') !important;
             background-color: rgba(0,0,0,0)!important;
             #background-color: var(--custom-ha-card-background) !important;
             --ha-dialog-border-radius: 19px 19px 0px 0px;

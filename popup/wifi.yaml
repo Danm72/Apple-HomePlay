@@ -41,7 +41,7 @@ browser_mod:
               }
 
         - type: picture
-          image: /local/qr_code/guest_wifi.jpg
+          image: /local/homeplay_assets/qr_code/guest_wifi.jpg
           tap_action:
             action: none
           hold_action:

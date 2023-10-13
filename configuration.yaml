@@ -34,10 +34,10 @@ frontend:
 # | Definition for extra module                                                |
 # +----------------------------------------------------------------------------+
   extra_module_url:
-    - /local/community/custom-brand-icons/custom-brand-icons.js #Add new icon from elax46, use phu:
-    - /local/community/kiosk-mode/kiosk-mode.js
-    - /local/fonts.css
-    - /local/lovelace-card-mod/card-mod.js # Performance improvement called as fronted instead of lovelace resource
+    - /local/homeplay_assets/community/custom-brand-icons/custom-brand-icons.js #Add new icon from elax46, use phu:
+    - /local/homeplay_assets/community/kiosk-mode/kiosk-mode.js
+    - /local/homeplay_assets/fonts.css
+    - /local/homeplay_assets/lovelace-card-mod/card-mod.js # Performance improvement called as fronted instead of lovelace resource
 
 
 
